@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var language = getUrlParameter('lang');
-alert("Alert");
+    alert("Alert");
     switch (language) {
         case "en":
             $(".titulo-pagina[class!='en']").hide();
