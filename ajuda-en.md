@@ -1,23 +1,5 @@
-<!--suppress ALL -->
-<html>
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-    <meta name="HandheldFriendly" content="true"/>
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
-
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/ajuda.css">
-
-    <title>Ajuda +Controle Arduino</title>
-</head>
-
-<body>
 <div>
-    <h1>Visão geral</h1>
+    <h1>Overview</h1>
 
     <p> O +Controle Arduíno é um aplicativo que serve de interface entre um Arduíno e um aparelho Android através de
         Bluetooth.</p>
@@ -26,7 +8,7 @@
         mesmo realize os mais variados tipos de tarefas.</p>
 </div>
 <div>
-    <h1>Conceitos importantes</h1>
+    <h1>Important concepts</h1>
 
     <p>Nessa seção são listados vários conceitos importantes relativos ao aplicativo.</p>
 
@@ -44,7 +26,7 @@
         voz, etc), podem ser mostrados ou escondidos de acordo com a necessidade do projeto.</span>
 </div>
 <div>
-    <h1>Criando um perfil</h1>
+    <h1>Creating a Profile</h1>
 
     <p>
         Para criar um perfil acione o botão "+" na tela de listagem de perfis, após, preencha os campos de acordo com o
@@ -69,7 +51,7 @@
     </ul>
 </div>
 <div>
-    <h1>Criando um comando</h1>
+    <h1>Creating a command</h1>
 
     <p>
         Para criar um comando acione o botão "+" na tela de um perfil, na aba "comandos", após, escreva o comando que
@@ -78,7 +60,7 @@
         comando especificado no app, o app enviará para o Arduíno o outro comando.</p>
 </div>
 <div>
-    <h1>Botões com comandos mapeáveis</h1>
+    <h1>Buttons with mappable commands</h1>
 
     <p>
         Na tela de perfil estão disponíveis alguns botões que são capazes de enviar apenas um comando pré-definido, como
@@ -95,7 +77,7 @@
         anteriormente acionada.</p>
 </div>
 <div>
-    <h1>Tela inicial</h1>
+    <h1>Home screen</h1>
 
     <p>A tela inicial do +Controle Arduíno mostra um botão para criação de um perfil e uma lista de todos os perfis já
         criados/importados para o app, ao tocar e segurar em um perfil apresenta também as opções de selecionar perfis
@@ -103,7 +85,7 @@
         de importação de perfis e de preferências do app.</p>
 </div>
 <div>
-    <h1>Tela do perfil</h1>
+    <h1>Profile Screen</h1>
 
     <p> A tela do perfil é a tela principal do aplicativo, é nela que toda interação com o Arduíno acontece, através
         dessa tela você poderá criar, editar e excluir comandos, poderá mostrar ou ocultar controles e poderá se
@@ -118,7 +100,7 @@
         "inicio".</p>
 </div>
 <div>
-    <h1>Exportação</h1>
+    <h1>Profile Export</h1>
 
     <p>
         Ao exportar um perfil, todas as configurações do mesmo são salvas no seu celular na forma de um arquivo com a
@@ -140,7 +122,7 @@
         exportar o perfil no qual estiver.</p>
 </div>
 <div>
-    <h1>Importação</h1>
+    <h1>Import profile</h1>
 
     <p>A importação pega o arquivo de um perfil exportado por alguém (aquele com a extensão <code>.jun</code>) e, a
         partir dele, cria um perfil que é a cópia exata do perfil exportado. Se alguém usar o
@@ -150,6 +132,3 @@
 
     <p> A opção de importação se encontra no menu lateral da tela de listagem de perfis.</p>
 </div>
-</body>
-
-</html>

@@ -1,21 +1,3 @@
-<!--suppress ALL -->
-<html>
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-    <meta name="HandheldFriendly" content="true"/>
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
-
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/ajuda.css">
-
-    <title>Help +Arduino Control</title>
-</head>
-
-<body>
 <div>
     <h1>Visão geral</h1>
 
@@ -150,6 +132,3 @@
 
     <p> A opção de importação se encontra no menu lateral da tela de listagem de perfis.</p>
 </div>
-</body>
-
-</html>

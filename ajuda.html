@@ -1,25 +1,39 @@
 <html>
 
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
     <script src="js/utils.js" type="text/javascript"></script>
 </head>
 
 <body>
+<p class="mudar-idioma-para-portugues">Ler em <a href="ajuda.html?lang=pt-BR">português</a></p>
+<p class="mudar-idioma-para-ingles">Read in <a href="ajuda.html?lang=en">english</a></p>
+<xmp src="/ajuda-en.md" theme="united" style="display:none;"></xmp>
+
 <script>
     (function () {
         var language = getUrlParameter("lang");
 
         switch (language) {
             case "pt-BR":
-                window.location.replace("/ajuda-pt.html");
+                document.title = "Ajuda +Controle Arduino";
+                $("xmp").attr("src", "ajuda-pt.md");
+                $(".mudar-idioma-para-portugues").hide();
+                $(".mudar-idioma-para-ingles").show();
                 break;
-            case "en":
             default:
-                window.location.replace("/ajuda-en.html");
+                document.title = "Help +Arduino Control";
+                $("xmp").attr("src", "ajuda-en.md");
+                $(".mudar-idioma-para-ingles").hide();
+                $(".mudar-idioma-para-portugues").show();
                 break;
         }
     })();
 </script>
+
+<script src="/load-xmp-src.js"></script>
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
 </body>
 
 </html>
